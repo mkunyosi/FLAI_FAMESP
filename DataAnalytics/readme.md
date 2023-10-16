@@ -4,17 +4,18 @@
 Este projeto de Data Analytics foi desenvolvido como parte do programa MBA da FLAI/FAMESP. Foi desenvolvido um _dashboard_ para o controle de contas de condomínio, criando-se, assim, uma ferramenta eficaz para a gestão financeira e operacional de condomínios.
 
 ## O que encontrar aqui
-### [Vídeo de apresentação _(aqui)_]( https://bit.ly/kunyosi_mba_dashboard) 
-Vídeo de apresentação do projeto contendo uma visão geral de como o projeto foi desenvolvido.
+### Vídeo de apresentação do projeto 
+[Vídeo de apresentação do projeto]( https://bit.ly/kunyosi_mba_dashboard) 
+contendo uma visão geral de como o projeto foi desenvolvido.
 
-### [Dashboard _(aqui)_]( https://bit.ly/kunyosi_mba_dashboard_web) 
-Acesso ao _Dashboard web_: visão clara e interativa de dados contáveis, financeiros e operacionais do condomínio.
+### Dashboard 
+Acesso ao [_Dashboard web_]( https://bit.ly/kunyosi_mba_dashboard_web) desenvolvido.
 
 ### Apresentação do projeto
 O arquivo  [Apresentação_do_Projeto.pdf]( https://github.com/mkunyosi/FLAI_FAMESP/blob/learning/DataAnalytics/Apresenta%C3%A7%C3%A3o_do_Projeto.pdf) contém ilustrações utilizadas no vídeo de apresentação.
 
-### [Repositório do projeto _(aqui)_](https://bit.ly/kunyosi_mba_dashboard_dados_projeto)
-Componentes utilizados no projeto:
+### Repositório do projeto 
+[Repositório](https://bit.ly/kunyosi_mba_dashboard_dados_projeto) com os componentes utilizados no projeto:
 - Notebook criado com a linguagem Python:
    - Consolidação de dados históricos para serem usados pelo Power BI.
    - Testes para integração entre Power BI e Python: geração de gráficos 
