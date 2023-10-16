@@ -10,6 +10,9 @@ Vídeo de apresentação do projeto contendo uma visão geral de como o projeto 
 ### [Dashboard _(aqui)_]( https://bit.ly/kunyosi_mba_dashboard_web) 
 Acesso ao _Dashboard web_: visão clara e interativa de dados contáveis, financeiros e operacionais do condomínio.
 
+### Apresentação do projeto
+O arquivo  [Apresentação_do_Projeto.pdf]( https://github.com/mkunyosi/FLAI_FAMESP/blob/learning/DataAnalytics/Apresenta%C3%A7%C3%A3o_do_Projeto.pdf) contém ilustrações utilizadas no vídeo de apresentação.
+
 ### [Repositório do projeto _(aqui)_](https://bit.ly/kunyosi_mba_dashboard_dados_projeto)
 Componentes utilizados no projeto:
 - Notebook criado com a linguagem Python:
@@ -53,3 +56,7 @@ Etapas para construção do dashboard:
   - Criar sessões de visualização para cada perfil de usuário.
   - Criar interfaces diferenciadas com perfil de administrador e usuário comum. 
   - Criar interface para simular a inclusão de novas despesas às quais serão parceladas. Por exemplo, uma nova obra.
+
+
+
+ 
