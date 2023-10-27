@@ -1,17 +1,15 @@
 # Projeto de Machine Learning para MBA FLAI/FAMESP
 
 ## Descrição do Projeto
-No Projeto Data Analytics foi construído um dashboard para controle de contas de condomínio, sendo que os dados usados no projeto foram obtidos de lançamentos contábeis desde junho de 2017.
+Este projeto de Machine Learning é uma extensão de um trabalho anterior de Data Analytics, no qual desenvolvemos um dashboard para monitorar as contas do condomínio, com histórico desde junho de 2017.
 
-Dentre as principais despesas mensais do condomínio destaca-se a conta de água, cujo percentual da despesa pode chegar a quase 25% do total.
+Dentre as despesas mensais mais significativas do condomínio, destaca-se a conta de água, que pode representar quase 25% do total.
 
-Este trabalho tem como objetivo avaliar a série de dados relativos ao consumo de água nos últimos anos e construir um modelo de machine learning para prever o consumo dos próximos meses. A expectativa é que se possa fornecer alertas ao síndico do condomínio para que esse possa tomar ações para evitar o aumento de consumo de água. Por exemplo, fazendo campanhas para que os condôminos economizem água.
+O objetivo principal deste trabalho é avaliar a série temporal do consumo de água ao longo dos últimos anos e construir um modelo de machine learning capaz de prever o consumo para os próximos meses. A intenção é fornecer alertas ao síndico do condomínio, permitindo que ele tome medidas proativas para evitar aumentos excessivos no consumo de água. Isso pode incluir campanhas de conscientização para os condôminos sobre a importância da economia de água.
 
-Para atingir o resultado esperado, o projeto foi construído utilizando técnicas de Séries Temporais com aprendizado de máquina.
+Para alcançar esse objetivo, aplicamos técnicas de Séries Temporais em conjunto com aprendizado de máquina. Neste notebook, você encontrará análises da série histórica, validações técnicas para garantir o uso adequado dos modelos ARIMA e SARIMA, além da identificação dos parâmetros de configuração dos modelos de machine learning e uma análise final do melhor modelo obtido.
 
-Neste notebook estão as análises feitas sobre a série histórica, validações técnicas para garantir o uso de modelagem ARIMA e SARIMA, identificação de parâmetros de configuração dos modelos de machine learning a análise final sobre o melhor modelo obtido.
-
-O conteúdo aqui apresentado foi construído com apoio de material dos módulos de Machine Learning do MBA FLAI/FAMESP. Também foram adaptados outros materiais colhidos em blogs que discorrem sobre as técnicas de modelagem para Séries Temporais.
+O conteúdo apresentado foi desenvolvido com o apoio dos materiais dos módulos de Machine Learning do MBA FLAI/FAMESP, bem como a adaptação de informações provenientes de blogs especializados em técnicas de modelagem para Séries Temporais.
 
 ## O que encontrar aqui
 
@@ -22,32 +20,35 @@ O conteúdo aqui apresentado foi construído com apoio de material dos módulos 
    - Testes para integração entre Power BI e Python: geração de gráficos 
 - Arquivos auxiliares utilizados no desenvolvimento do projeto
 
-## Detalhes do projeto
-Um pouco mais sobre o problema tratado
-A série histórica utilizada neste projeto compreende dados de junho de 2017 a julho de 2023. Os dados foram obtidos em lançamentos contábeis registrados pela administradora do condomínio.
 
-Os dados correspondem às cobranças emitidas pela companhia de fornecimento de água (SABESP). Nessa cobranças há o consumo de água, que o objeto de estudo deste projeto, e valor da cobrança.
+## Um pouco mais sobre o problema abordado
 
-O modelo de cobrança considera o número de residências no condomínio para que chegar a uma média de consumo por resisdência. Essa média é usada para identificar qual tarifa deverá ser paga. Na verdade, a tarifa possui um modelo de "degrau tarifário" de tal form aque quanto mais água é utilizada mais caro passa a ser o valor por metro cúbido.
+A série histórica utilizada neste projeto compreende dados de junho de 2017 a julho de 2023, obtidos a partir dos lançamentos contábeis registrados pela administradora do condomínio.
 
-De uma forma simplificada, se o consumo mensal de água for infereir a 2.300 m³, a conta tem valor em torno de R$ 20.000. Caso o consumo exceda o "degrau" de 2.300 m³, com um pequeno acréscimo de consumo da ordem de 10%, a conta pode aumentar em 40%.
+Os dados correspondem às cobranças emitidas pela companhia de fornecimento de água, no caso, a SABESP. Essas cobranças incluem informações sobre o consumo de água, que é o foco deste projeto, bem como o valor da cobrança.
 
-Por se tratar de um despesa que pode desequilibrar as contas orçamentárias do condomínio, é importante monitorar o consumo de água e, sendo possível, antecipar ações que possam fazer com que o consumo fique abaixo do limite de 2.300 m³.
+O modelo de cobrança considera o número de residências no condomínio para calcular a média de consumo por residência. Essa média é usada para determinar qual tarifa deve ser aplicada. A tarifa segue um modelo de "degrau tarifário", onde o custo por metro cúbico de água aumenta à medida que o consumo ultrapassa determinados limites.
 
-Expectativas e conclusções gerais
-No início deste projeto a expectiva era usar as ferramentas de predição de dados aplicadas a Séries Temporais com o objetivo de se gerar predições que pudessem ser usados como alertas para o administrador do condomínio estar ciente de eventuais riscos de aumento nas despesas. Claramente, sabendo do aumento do consumo, também poderiam ser tomadas ações para evitar esse aumento.
+De forma simplificada, se o consumo mensal de água ficar abaixo de 2.300 m³, a conta geralmente tem um valor em torno de R$ 20.000. No entanto, se o consumo exceder esse limite de 2.300 m³, com um acréscimo relativamente pequeno de cerca de 10% no consumo, o valor da conta pode aumentar em até 40%.
 
-No decorrer do desenvolvimento do projeto foi ficando claro que a análise gerada poderia certamente cumprir seu papel, porém com um "poder de assertividade" inferior ao inicialmente imaginado.
+Devido ao potencial de impacto nas finanças do condomínio, é fundamental monitorar de perto o consumo de água e, sempre que possível, antecipar ações que ajudem a manter o consumo abaixo do limite de 2.300 m³.
 
-Como um "produto", talvez não seja adequado utilizar as análises produzidas como única fonte para tomada de decisão, por outro lado, esse "produto" poderia ser utilizado para apoiar determinadas decisões e servir de alerta para que outras análise pudessem ser avaliadas.
+## Expectativas e Conclusões Gerais
 
-Do ponto de vista de aprendizado, o projeto aqui exposto explora os modelos tradicionais ARIMA e SARIMA e serve como roteiro para outros projetos aplicados a outros dados.
+No início deste projeto, a expectativa era utilizar técnicas de previsão de dados aplicadas a Séries Temporais, com o objetivo de gerar previsões que pudessem funcionar como alertas para o administrador do condomínio, auxiliando na identificação de potenciais riscos de aumento nas despesas. Com o conhecimento antecipado do aumento do consumo, seriam tomadas ações proativas para evitá-lo.
 
-Que você leitor, aproveite este trabalho!
+À medida que o projeto foi se desenvolvendo, tornou-se evidente que as análises produzidas poderiam desempenhar esse papel, mas com um grau de precisão um pouco inferior ao que inicialmente foi imaginado.
 
-Ficarei contente em receber seus comentários!
+Como "produto", talvez não seja apropriado confiar exclusivamente nas análises geradas para a tomada de decisões. No entanto, essas análises podem servir como um suporte valioso para determinadas decisões e alertar para a necessidade de avaliar outras análises em conjunto.
 
-Marcos Kunyosi out/2023
+Do ponto de vista do aprendizado, este projeto explora os modelos tradicionais ARIMA e SARIMA, servindo como um guia para projetos futuros em diferentes conjuntos de dados.
+
+Agradeço por estar aqui, aproveite o conteúdo!
+
+Fico à disposição para receber seus comentários.
+
+Marcos Kunyosi
+out/2023
 
  
 
