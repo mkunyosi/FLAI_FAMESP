@@ -13,11 +13,12 @@ O conteúdo apresentado foi desenvolvido com o apoio dos materiais dos módulos 
 
 ## O que encontrar aqui
 
+### Notebook python
+O notebook utilizado está [Aqui](https://bit.ly/kunyosi_mba_nb_ml_st), nele há detalhes da análise da série temporal de consumo de água.
+
 ### Repositório do projeto 
-[Repositório](https://bit.ly/kunyosi_mba_dashboard_dados_projeto) com os componentes utilizados no projeto:
-- Notebook criado com a linguagem Python:
-   - Consolidação de dados históricos para serem usados pelo Power BI.
-   - Testes para integração entre Power BI e Python: geração de gráficos 
+[Repositório](https://bit.ly/kunyosi_mba_ml_dados_projeto) com os componentes utilizados no projeto:
+- Notebook criado com a linguagem Python com a análise da série temporal   
 - Arquivos auxiliares utilizados no desenvolvimento do projeto
 
 
