@@ -10,7 +10,7 @@ O arquivo fornecido pela B3 é um arquivo texto compactado, com um tamanho inici
 ## O que encontrar aqui
 
 ### Notebook python
-O notebook utilizado está [nesse link](https://bit.ly/kunyosi_mba_nb_bd), nele há detalhes da análise da série temporal de consumo de água.
+O notebook utilizado está [neste link](https://bit.ly/kunyosi_mba_nb_bd), nele há detalhes de como o código foi construído e como as análises foram feitas.
 
 ### Base de dados utilizada 
 Os dados utilizados neste projeto estão disponíveis no site da B3 e tambem [neste link](https://drive.google.com/file/d/1ZWxJCKOgXmBnzkAa5GP2IhdDFCl4PEOw).
