@@ -1,3 +1,5 @@
+# Projeto de Big Data para MBA FLAI/FAMESP
+
 ## **Exploração de Dados na Bolsa de Valores B3**
 
 Este trabalho é uma contribuição para a compreensão dos mercados financeiros e o potencial de ferramentas como PySpark na análise de dados.
@@ -5,7 +7,16 @@ Este trabalho é uma contribuição para a compreensão dos mercados financeiros
 Ele apresenta uma análise dos dados da bolsa de valores B3, referentes ao período de movimentações de 2023.
 O arquivo fornecido pela B3 é um arquivo texto compactado, com um tamanho inicial de 58 MB, que se expande para 465 MB após descompactação.
 
-### **Metodologia**
+## O que encontrar aqui
+
+### Notebook python
+O notebook utilizado está [nesse link](https://bit.ly/kunyosi_mba_nb_bd), nele há detalhes da análise da série temporal de consumo de água.
+
+### Base de dados utilizada 
+Os dados utilizados neste projeto estão disponíveis no site da B3 e tambem [neste link](https://drive.google.com/file/d/1ZWxJCKOgXmBnzkAa5GP2IhdDFCl4PEOw).
+
+
+## **Plano de trabalho**
 
 Neste trabalho, exploramos as seguintes etapas:
 
